@@ -144,7 +144,7 @@ should be the top five schools.
 
 Please style the homepage's heading elements like so:
 
-![alt text](https://github.com/luuply/changes/UpdatedStyle.png "Updated Homepage Style")
+![alt text](https://github.com/luuply/changes/blob/master/UpdatedStyle.png "Updated Homepage Style")
 
 ### Background Color
 
@@ -215,7 +215,7 @@ ON `/cnp910/luuply-registration/`
 - Decrease the letter-spacing: 2px; to 0px (no letter spacing) on the h2 elements.
 - Under the SSO buttons, add a <hr> with a "OR" centered - see attached image:
 
-![SSO button style](https://github.com/luuply/changes/SSOSignup.png "SSO button style")
+![SSO button style](https://github.com/luuply/changes/blob/master/SSOSignup.png "SSO button style")
 
 - Remove the fieldset border on frame1, frame2, and frame3.
 
@@ -250,7 +250,7 @@ On the search results page, remove the conference (i.e., Ivy League), only displ
 
 On a school's page, change the text styling to the attached image:
 
-![School page style](https://github.com/luuply/changes/schoolpagestyle.png "School page style")
+![School page style](https://github.com/luuply/changes/blob/master/schoolpagestyle.png "School page style")
 
 In this element:
 
