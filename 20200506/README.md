@@ -49,7 +49,7 @@ On homepage, the select menu for the school search should be in alphabetical ord
 
 On homepage, the select menu is broken when searching. When you type in a letter, say G, the correct school might show up, but it also displays a bunch of schools that don't have the letter "G."
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Dropdown Bug Image](https://github.com/luuply/changes/raw/master/20200506/dropdownbug.PNG "Dropdown Bug Image")
 
 ### Add the ratings to the program ranking
 
@@ -169,8 +169,6 @@ When the search bar is in the Bootstrap header, the bottom of the search button 
 		              </div>
 ```
 
-###
-
 ### Add a share button
 
 On a school's page, add a button in here:
@@ -198,3 +196,51 @@ Destinations:
 - Twitter
 - By URL
 - By email
+
+If user is not logged in, design per model:
+
+![Unauthorized Model Image](https://github.com/luuply/changes/raw/master/20200506/unauthsharemodel.PNG "Unauthorized Model Image")
+
+If user is logged in, design per model:
+
+![Authorized Model Image](https://github.com/luuply/changes/raw/master/20200506/authsharemod.JPG "Authorized Model Image")
+
+### Capitalization
+
+In the roster display on a school page, correct:
+
+```
+<ul class="roster-container-by-class"><li><strong>Freshmen</strong> - 19</li><li><strong>Sophomores</strong> - 17</li><li><strong>Juniors</strong> - 9</li><li><strong>seniors</strong> - 7</li></ul>
+```
+
+TO
+
+```
+<ul class="roster-container-by-class"><li><strong>Freshmen</strong> - 19</li><li><strong>Sophomores</strong> - 17</li><li><strong>Juniors</strong> - 9</li><li><strong>Seniors</strong> - 7</li></ul>
+```
+
+### Sign In Page
+
+#### Remove a field
+
+If possible, remove the Username field:
+
+```
+<input type="text" name="user[username]" id="username" value="" placeholder="Username" required="">
+```
+
+#### SSO authentication
+
+When an user uses SSO to create an account, they should NOT see any login or personal details - those should come from SSO. They should ONLY see profile details.
+
+#### Under profile details
+
+If the user clicks current or former collegiate athlete, present a select menu to ask if they wish to verify their account. If yes, then prompt user to sign in using Facebook SSO ONLY. Verified accounts must be created with Facebook SSO.
+
+### Email verification [BUG]
+
+Email verification is broken. Verification emails take far too long to send, if they arrive at all.
+
+### Homepage and profile page
+
+If a current or former collegiate athlete is not verified, display a banner notification asking if they would like to verify their account.
