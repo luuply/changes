@@ -38,6 +38,8 @@ Currently, the default profile picture cannot be found (so alt-text is being dis
 
 You can find that image [here](https://github.com/luuply/changes/raw/master/20200521/default_profile-01.png).
 
+The blue checkmark icon is currently set as the default profile picture for "About Yourself" in WordPress Admin, causing any and all users to be marked as verified.
+
 #### Radios are missing linked labels
 
 Please double-check the `for` attribute on all of the `label` elements under the gender and status and whether any JavaScript is interfering with the proper `for` attribute passing. Currently, users must click on the radio itself, rather than being able to click on the radio's label.
@@ -69,5 +71,9 @@ Retrace:
 3. See issue
 
 The review authorship page should not open in a new tab.
+
+### School saving
+
+On a school's page, save the _program_, not the _school_. For example, if I save the men's lacrosse page, I want to only save men's lacrosse program, not the school's entire athletic program.
 
 ### Software Manual
