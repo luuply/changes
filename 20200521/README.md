@@ -36,7 +36,7 @@ Currently, the default profile picture cannot be found (so alt-text is being dis
 
 ![default profile picture](https://github.com/luuply/changes/raw/master/20200521/default_profile-01.png "Default Profile Picture")
 
-You can find that image at [here](https://github.com/luuply/changes/raw/master/20200521/default_profile-01.png).
+You can find that image [here](https://github.com/luuply/changes/raw/master/20200521/default_profile-01.png).
 
 #### Radios are missing linked labels
 
