@@ -8,17 +8,17 @@ Account verification occurs for *SELECT* users: only users who have **both** ide
 I've linked a short video [here](https://drive.google.com/file/d/1uB_0Q3f0P9znUB1Jvx3rqfLB3EIjiShC/view?usp=sharing
 ) that explains exactly what I'm talking about.
 
-### Contact Us Page
+### (Fixed) Contact Us Page
 
 Text input box text-color needs to be set to `#F8F9FA`. Currently, text is virtually unreadable.
 
-### Footer
+### (Fixed) Footer
 
 In the footers for all pages, replace the **Sample Page** with the **About Us** page.
 
 Replace the Facebook icon with the Instagram icon (`fa-instagram`). Replace the LinkedIn icon with 
 
-### Terms and Conditions Page
+### (Fixed) Terms and Conditions Page
 
 Replace:
 
@@ -36,7 +36,7 @@ There is a hotlink there that's not supposed to be there.
 
 Replace all `â€™` with `'` (single quotes). There was an encoding issue when these files were originally sent to you.
 
-### User Profile Page
+### (Fixed) User Profile Page
 
 #### Default Profile Picture
 
@@ -48,19 +48,19 @@ You can find that image [here](https://github.com/luuply/changes/raw/master/2020
 
 The blue checkmark icon is currently set as the default profile picture for "About Yourself" in WordPress Admin, causing any and all users to be marked as verified.
 
-#### Radios are missing linked labels
+#### (Fixed) Radios are missing linked labels
 
 Please double-check the `for` attribute on all of the `label` elements under the gender and status and whether any JavaScript is interfering with the proper `for` attribute passing. Currently, users must click on the radio itself, rather than being able to click on the radio's label.
 
-### School review page
+### (ALMOST Fixed) School review page
 
-On a school's reviews page, replies that came from the original author on a review should show up as "Author" rather than "Anonymous." If a user is logged in and they are viewing their review, rather than showing "Anonymous," it should "Your Review" in `#74DC96`.
+On a school's reviews page, replies that came from the original author on a review should show up as "Author" rather than "Anonymous." If a user is logged in and they are viewing their review, rather than showing "Anonymous," **it should show "Your Review" in `#74DC96`**.
 
-#### Modal to log in
+#### (Fixed) Modal to log in
 
 If a user is not logged in and they click on a button that requires authentication (say, "Save"), change the text to "Please login first" instead of "Please login first to upvote or downvote."
 
-### Review submission page
+### (Fixed) Review submission page
 
 On any page to submit a review, instead of `(*)` for required blanks, use `*` only. Put the asterisk before the label (i.e. `* Choose Sport`)
 
@@ -70,7 +70,7 @@ Capitalize `Click here.` under the review box:
 
 Instead of "Not sure where to start? click here.
 
-### (BUG) Page should not open in a new tab
+### (Fixed BUG) Page should not open in a new tab
 
 Retrace:
 
