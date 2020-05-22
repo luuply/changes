@@ -88,7 +88,7 @@ On a school's page, save the _program_, not the _school_. For example, if I save
 
 The "View Replies" button is not showing up on mobile devices for reviews that have replies.
 
-!(View 2 replies not showing up)[https://github.com/luuply/changes/raw/master/20200521/Image%20from%20iOS.png "View 2 replies not showing up"]
+![View 2 replies not showing up](https://github.com/luuply/changes/raw/master/20200521/Image%20from%20iOS.png "View 2 replies not showing up")
 
 ### Software Manual
 
