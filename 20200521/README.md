@@ -96,6 +96,7 @@ We'd like to remind you that we still need a software manual. At the least, it n
 
 - Installation instructions
 - How to add or remove schools
+- How to update the logos or information for existing schools
 - How to add or remove sports
 - How to manually remove reviews and comments that don't meet our community guidelines
 - How to manually add or remove accounts
