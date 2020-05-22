@@ -84,7 +84,13 @@ The review authorship page should not open in a new tab.
 
 On a school's page, save the _program_, not the _school_. For example, if I save the men's lacrosse page, I want to only save men's lacrosse program, not the school's entire athletic program.
 
-### (BUG) View Replies not showing up on mobile
+### Hiding Reviews
+
+There is currently no way to hide the replies to a review or a comment after opening them, so once you open the replies, you have to refresh the page to hide those replies again.
+
+![Hide replies not available](https://github.com/luuply/changes/raw/master/20200521/Image%20from%20iOS%20(1).png "Hide replies not available")
+
+### (Fixed BUG) View Replies not showing up on mobile
 
 The "View Replies" button is not showing up on mobile devices for reviews that have replies.
 
