@@ -84,6 +84,12 @@ The review authorship page should not open in a new tab.
 
 On a school's page, save the _program_, not the _school_. For example, if I save the men's lacrosse page, I want to only save men's lacrosse program, not the school's entire athletic program.
 
+### (BUG) View Replies not showing up on mobile
+
+The "View Replies" button is not showing up on mobile devices for reviews that have replies.
+
+!(View 2 replies not showing up)[https://github.com/luuply/changes/raw/master/20200521/Image%20from%20iOS.png "View 2 replies not showing up"]
+
 ### Software Manual
 
 We'd like to remind you that we still need a software manual. At the least, it needs to include:
