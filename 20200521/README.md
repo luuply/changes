@@ -1,8 +1,16 @@
 # Updates for 2020-05-06
 
+### Verified Users Clarification
+
+I think that we've been having some communication issues in determining exactly what a verified user is, compared to email verification. The two terms are not the same, and there's some confusion surrounding exactly what verification is and why it's important.
+Email validation occurs for *ALL* users. It's just there to make sure that bots and illegitimate users aren't signing up and filling our databases with tons of fake accounts.
+Account verification occurs for *SELECT* users: only users who have **both** identified as a current or former collegiate athlete AND have opted into account verification. It's there to make sure that athletes who say that they go to a certain school actually do go to that school and that they actually play in the athletics program there. Its purpose is to prevent an athlete from trash-talking or leaving bad reviews on schools that they just don't like, but aren't qualified to review (since they never attended that school).
+I've linked a short video [here](https://drive.google.com/file/d/1uB_0Q3f0P9znUB1Jvx3rqfLB3EIjiShC/view?usp=sharing
+) that explains exactly what I'm talking about.
+
 ### Contact Us Page
 
-Text input box text-color needs to be set to `#FFFFFF` or `#F8F9FA`. Currently, text is virtually unreadable.
+Text input box text-color needs to be set to `#F8F9FA`. Currently, text is virtually unreadable.
 
 ### Footer
 
@@ -77,3 +85,12 @@ The review authorship page should not open in a new tab.
 On a school's page, save the _program_, not the _school_. For example, if I save the men's lacrosse page, I want to only save men's lacrosse program, not the school's entire athletic program.
 
 ### Software Manual
+
+We'd like to remind you that we still need a software manual. At the least, it needs to include:
+
+- Installation instructions
+- How to add or remove schools
+- How to add or remove sports
+- How to manually remove reviews and comments that don't meet our community guidelines
+- How to manually add or remove accounts
+- Basic troubleshooting
