@@ -84,6 +84,10 @@ The review authorship page should not open in a new tab.
 
 On a school's page, save the _program_, not the _school_. For example, if I save the men's lacrosse page, I want to only save men's lacrosse program, not the school's entire athletic program.
 
+#### (BUG) Hyperlinks are broken
+
+When a school is saved, the link that should be added to the user's profile has no hyperlink back to the school's review page (like the links for notifications and your reviews).
+
 ### Hiding Reviews
 
 There is currently no way to hide the replies to a review or a comment after opening them, so once you open the replies, you have to refresh the page to hide those replies again.
