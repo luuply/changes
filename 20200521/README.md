@@ -82,7 +82,7 @@ The review authorship page should not open in a new tab.
 
 ### School saving
 
-On a school's page, save the _program_, not the _school_. For example, if I save the men's lacrosse page, I want to only save men's lacrosse program, not the school's entire athletic program.
+On a school's page, save the _program_, not the _school_. For example, if I save the men's lacrosse page, I want to only save men's lacrosse program, not the school's entire athletic program. You should also be able to remove a saved program as well.
 
 #### (BUG) Hyperlinks are broken
 
