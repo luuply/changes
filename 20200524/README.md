@@ -185,3 +185,14 @@ padding-left: 15px;
 ```
 
 Change the "Add a note(optional)" into a properly formed and attributed `<label>` (rather than a `<p>`), and adjust the text to "Add a note (optional)".
+
+### Emails
+
+When you share a post by email, please change the wording to:
+
+> Subject: Someone shared a Luuply page with you
+> User Name shared a page with you from Luuply!
+> To view the page, go to `<link URL here>`.
+
+If possible, style the email using some HTML.
+
