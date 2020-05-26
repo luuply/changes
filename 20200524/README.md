@@ -127,3 +127,11 @@ The **Contact Us** page is pretty boring right now. Keep the functionality, but 
 In the header's `<h1>` element, remove the `margin-bottom: 40px;` and replace it with `margin-bottom:10px;`. In the header's `<h6>` element, change the `margin-top` to `margin-top: 40px;`. Leave the `margin-bottom: 10px;`.
 
 In the `textarea` with name `your-message`, change the CSS so that `padding-top: 10px;`.
+
+The page should *roughly* look like the following. Please read over the code changes to make sure that they're all compatible, FIRST!
+
+![Contact Us Mockup](https://github.com/luuply/changes/raw/master/20200524/Capture.PNG "Contact Us Mockup")
+
+### Roster Break Down Formatting
+
+Please add an extra space after "TOTAL:" on the school's roster breakdown page.
