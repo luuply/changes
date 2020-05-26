@@ -144,3 +144,31 @@ If a page is missing some information, [like this one](http://dev106.developer24
 <p>We're missing some information about this school.</p>
 <p>If you know what this missing information should be, you can let us know by <a href="http://dev106.developer24x7.com/cnp910/contact-us/">contacting us</a>.</p>
 ```
+
+### Login Page Padding
+
+On the Login page, add some padding (between 5px and 10px) to either the checkbox or the label for the checkbox for "Remember Me." 
+
+Add some padding to the "Create an account" link (between 5px and 10px).
+
+The "Lost your password?" and "Create an account" links should darken onhover to indicate that they are being hovered over and that they are active links.
+
+### Login Page SSO Button
+
+On the Login page, for the Facebook SSO button, capitalize **Facebook**. That is, the full element should read:
+
+```
+<a class="fb-icon" href="https://www.facebook.com/v2.10/dialog/oauth?client_id=585009812359917&amp;state=aa9dcceee19b44504f948156a6e31a97&amp;response_type=code&amp;sdk=php-sdk-5.7.0&amp;redirect_uri=http%3A%2F%2Fdev106.developer24x7.com%2Fcnp910%2Ffb-process%2F&amp;scope=email"><img src="http://dev106.developer24x7.com/cnp910/wp-content/themes/luuply/images/fb-icon">Sign in with Facebook</a>
+```
+
+instead of 
+
+```
+<a class="fb-icon" href="https://www.facebook.com/v2.10/dialog/oauth?client_id=585009812359917&amp;state=aa9dcceee19b44504f948156a6e31a97&amp;response_type=code&amp;sdk=php-sdk-5.7.0&amp;redirect_uri=http%3A%2F%2Fdev106.developer24x7.com%2Fcnp910%2Ffb-process%2F&amp;scope=email"><img src="http://dev106.developer24x7.com/cnp910/wp-content/themes/luuply/images/fb-icon">Sign in with facebook</a>
+```
+
+### Footers
+
+For the footers on ALL pages, change the color of the copyright `<p>` to `#555`.
+
+Change the social media icons to `fa-facebook`, `fa-twitter`, and `fa-instagram`.
