@@ -73,3 +73,57 @@ Add and style this script according to the style of the rest of the site. Do not
 
 <!--End mc_embed_signup-->
 ```
+
+### Gussy Up the Contact Us Page
+
+The **Contact Us** page is pretty boring right now. Keep the functionality, but change the HTML to roughly match:
+
+```
+<main id="main" class="site-main">
+			<div class="container">
+		
+<article id="post-25" class="common-page post-25 page type-page status-publish hentry">
+	<header class="entry-header text-center">
+    <h6 style="color: #74dc96;">Got a question?</h6>
+		<h1 style="color: #F8F9FA">Contact Luuply</h1>	</header><!-- .entry-header -->
+    <div class="container">
+        <div class="row">
+            <div class="column text-center">
+                <p>We're here to help you and answer any questions that you might have.<br>We look forwards to hearing from you!</p>
+            </div>
+        </div>
+    </div>
+
+	
+	<div class="entry-content">
+		
+<div role="form" class="wpcf7" id="wpcf7-f527-p25-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response" role="alert">One or more fields have an error. Please check and try again.<ul><li>The field is required.</li><li>The field is required.</li></ul></div>
+<form action="/cnp910/contact-us/#wpcf7-f527-p25-o1" method="post" class="wpcf7-form invalid text-center" novalidate="novalidate" style="background-color: #3e3e3e; border-radius: 10px; padding: 20px;">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="527">
+<input type="hidden" name="_wpcf7_version" value="5.1.7">
+<input type="hidden" name="_wpcf7_locale" value="en_US">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f527-p25-o1">
+<input type="hidden" name="_wpcf7_container_post" value="25">
+</div>
+<p><label> Your Name (required)<br>
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required wpcf7-not-valid" aria-required="true" aria-invalid="true" placeholder="Jane Doe"><span role="alert" class="wpcf7-not-valid-tip">The field is required.</span></span> </label></p>
+<p><label> Your Email (required)<br>
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email wpcf7-not-valid" aria-required="true" aria-invalid="true" placeholder="jane.doe@example.com"><span role="alert" class="wpcf7-not-valid-tip">The field is required.</span></span> </label></p>
+<p><label> Subject<br>
+    <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Example: Star Wars Ep. II was the best one."></span> </label></p>
+<p><label>Message<br>
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Ask us a question, drop us a message, or just say hi!"></textarea></span> </label></p>
+<p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit btn"><span class="ajax-loader"></span></p>
+<div class="wpcf7-response-output wpcf7-display-none wpcf7-validation-errors" style="display: block;" role="alert">Please double-check everything above! It looks like we've got a problem!</div></form></div>
+	</div><!-- .entry-content -->
+
+	</article><!-- #post-25 -->
+			</div>
+		</main>
+```
+
+In the header's `<h1>` element, remove the `margin-bottom: 40px;` and replace it with `margin-bottom:10px;`. In the header's `<h6>` element, change the `margin-top` to `margin-top: 40px;`. Leave the `margin-bottom: 10px;`.
+
+In the `textarea` with name `your-message`, change the CSS so that `padding-top: 10px;`.
