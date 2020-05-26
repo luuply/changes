@@ -172,3 +172,16 @@ instead of
 For the footers on ALL pages, change the color of the copyright `<p>` to `#555`.
 
 Change the social media icons to `fa-facebook`, `fa-twitter`, and `fa-instagram`.
+
+### Share Modal CSS Bug
+
+In the sharing modal, the helptext to "Please enter X or more characters" needs to be adjusted so that it does not overlap the "To email addresses" `span`. 
+
+For the `textarea` (class: `shr-md1-main textarea`) for the "Add a note", add the following CSS:
+
+```
+padding-top: 10px;
+padding-left: 15px;
+```
+
+Change the "Add a note(optional)" into a properly formed and attributed `<label>` (rather than a `<p>`), and adjust the text to "Add a note (optional)".
