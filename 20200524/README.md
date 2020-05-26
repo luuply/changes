@@ -42,7 +42,7 @@ Add and style this script according to the style of the rest of the site. Do not
 <div id="mc_embed_signup">
 <form action="https://luuply.us18.list-manage.com/subscribe/post?u=6269eb225a8672a1ef294cf05&amp;id=ca201131ed" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Subscribe</h2>
+	<h2>Subscribe to Luuply's Newsletter</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
