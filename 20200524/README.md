@@ -26,6 +26,8 @@ For the titles for Men's and Women's lacrosse under Program Ranking, change thes
 "><h4>Women’s Lacrosse</h4><ol><li><a href="http://dev106.developer24x7.com/cnp910/school/stanford-university/?sport_name=womens-lacrosse">Stanford University Demo</a><p class="home-rate"><span class="ratings dashicons dashicons-star-filled"></span><span class="rate-val">4.6</span></p></li></ol><a class="" href="http://dev106.developer24x7.com/cnp910/luuply-login/">See full list</a></div>
 ```
 
+Update: this has been resolved on mobile only, not on desktop. Please double-check this!
+
 ### (FIXED) Mobile Responsiveness Issue
 
 On mobile, "Choose a sport" isn't visible in any page when it's in the header because of text overflow. The homepage is fine, but everywhere else is not. See:
@@ -132,7 +134,7 @@ The page should *roughly* look like the following. Please read over the code cha
 
 ![Contact Us Mockup](https://github.com/luuply/changes/raw/master/20200524/Capture.PNG "Contact Us Mockup")
 
-### Roster Break Down Formatting
+### (FIXED) Roster Break Down Formatting
 
 Please add an extra space after "TOTAL:" on the school's roster breakdown page.
 
@@ -214,3 +216,5 @@ We'd like to remind you that we still need a software manual. At the least, it n
 - How to manually add or remove accounts
 - Basic troubleshooting
 - Adding a site-wide alert (say, for cookie notifications, outages, notices, etc.)
+
+# THANK YOU!
