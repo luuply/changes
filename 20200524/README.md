@@ -201,3 +201,16 @@ If possible, style the email using some HTML.
 ### Way to Unsave
 
 If a user has saved a particular program, they need to be able to *unsave* it using the same mechanism. For example, if I visit the page for Boston University, which I have saved, if I click on "Saved", it should remove the program's listing from my account.
+
+### Software Manual
+
+We'd like to remind you that we still need a software manual. At the least, it needs to include:
+
+- Installation instructions
+- How to add or remove schools
+- How to update the logos or information for existing schools
+- How to add or remove sports
+- How to manually remove reviews and comments that don't meet our community guidelines
+- How to manually add or remove accounts
+- Basic troubleshooting
+- Adding a site-wide alert (say, for cookie notifications, outages, notices, etc.)
