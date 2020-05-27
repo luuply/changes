@@ -26,7 +26,7 @@ For the titles for Men's and Women's lacrosse under Program Ranking, change thes
 "><h4>Women’s Lacrosse</h4><ol><li><a href="http://dev106.developer24x7.com/cnp910/school/stanford-university/?sport_name=womens-lacrosse">Stanford University Demo</a><p class="home-rate"><span class="ratings dashicons dashicons-star-filled"></span><span class="rate-val">4.6</span></p></li></ol><a class="" href="http://dev106.developer24x7.com/cnp910/luuply-login/">See full list</a></div>
 ```
 
-### Mobile Responsiveness Issue
+### (FIXED) Mobile Responsiveness Issue
 
 On mobile, "Choose a sport" isn't visible in any page when it's in the header because of text overflow. The homepage is fine, but everywhere else is not. See:
 
@@ -136,7 +136,7 @@ The page should *roughly* look like the following. Please read over the code cha
 
 Please add an extra space after "TOTAL:" on the school's roster breakdown page.
 
-### Pages With Missing Information
+### (FIXED) Pages With Missing Information
 
 If a page is missing some information, [like this one](http://dev106.developer24x7.com/cnp910/school/arizona-state-university/?sport_name=womens-lacrosse#ChildVerticalTab_12), add a message so that the page isn't blank. Here's some basic HTML to get you started.
 
@@ -196,3 +196,6 @@ When you share a post by email, please change the wording to:
 
 If possible, style the email using some HTML.
 
+# Way to Unsave
+
+If a user has saved a particular program, they need to be able to *unsave* it using the same mechanism. For example, if I visit the page for Boston University, which I have saved, if I click on "Saved", it should remove the program's listing from my account.
