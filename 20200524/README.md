@@ -196,6 +196,6 @@ When you share a post by email, please change the wording to:
 
 If possible, style the email using some HTML.
 
-# Way to Unsave
+### Way to Unsave
 
 If a user has saved a particular program, they need to be able to *unsave* it using the same mechanism. For example, if I visit the page for Boston University, which I have saved, if I click on "Saved", it should remove the program's listing from my account.
