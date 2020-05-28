@@ -217,4 +217,27 @@ We'd like to remind you that we still need a software manual. At the least, it n
 - Basic troubleshooting
 - Adding a site-wide alert (say, for cookie notifications, outages, notices, etc.)
 
+### (BUG) Writing Review Without Logging In
+
+If you write a review without being logged in, it prompts you after hitting "Post" to sign up. If you try to sign up, it hangs.
+
+![Sign Up Hanging](https://github.com/luuply/changes/raw/master/20200524/signuphang.jpg "Sign Up Hanging")
+
+If you click out of the modal without completing the sign up, the button you clicked changes to "posting...", even if you didn't complete the entire sign-up process.
+
+![Posting Image](https://github.com/luuply/changes/raw/master/20200524/postingimage.jpg "Posting Image")
+
+### Add "Next Page" navigation to bottom
+
+Add the button to view the next page of reviews to the bottom of school pages with more than 5 reviews. Currently, you need to scroll all the way back up to go to the next page.
+
+![Navigation At Bottom](https://github.com/luuply/changes/raw/master/20200524/navbottom1.png "Navigation At Bottom")
+![Navigation At Bottom](https://github.com/luuply/changes/raw/master/20200524/navbottom2.png "Navigation At Bottom")
+
+### (Partially Fixed) Write Reviews in New Tab
+
+If you click on "Start your review of *school name*", the page opens in the current tab. However, if you click on the star ratings to start the review, it still opens in a new tab.
+
+![Stars](https://github.com/luuply/changes/raw/master/20200524/stars.png "Stars")
+
 # THANK YOU!
