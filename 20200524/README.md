@@ -240,4 +240,10 @@ If you click on "Start your review of *school name*", the page opens in the curr
 
 ![Stars](https://github.com/luuply/changes/raw/master/20200524/stars.png "Stars")
 
+### Lost Password
+
+The forgot password process isn't formatted in our colors, and it doesn't work.
+
+![Forgot password](https://github.com/luuply/changes/raw/master/20200524/forgotpassword.png "Forgot password")
+
 # THANK YOU!
