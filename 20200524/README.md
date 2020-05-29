@@ -246,4 +246,42 @@ The forgot password process isn't formatted in our colors, and it doesn't work.
 
 ![Forgot password](https://github.com/luuply/changes/raw/master/20200524/forgotpassword.png "Forgot password")
 
+### Email Confirmation Style
+
+Please style the PHPMailer script that sends emails to the users for email confirmation as such:
+
+```
+<html>
+  <head>
+    <title>Please confirm your email</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body style="background-color: #F8F9FA;">
+    <div style="padding: 10px;margin: 20px;text-align: center;">
+      <h1 style="font-family: 'Hind', sans-serif;color: #1FACEA;">Welcome to Luuply!</h1>
+      <h2 style="font-family: 'Hind', sans-serif;color: #1FACEA;">Email confirmation</h2>
+    </div>
+    <div style="padding: 10px;margin: 20px;text-align: center;">
+      <p style="font-family: 'Open Sans', sans-serif;color: #000000;">Thank you for registering for a Luuply account!</p>
+      <p style="font-family: 'Open Sans', sans-serif;color: #000000;">You or someone else has registered on %ACCTDATE% using the address %EMAIL%.</p>
+    </div>
+    <div style="padding: 30px;margin: 30px;text-align: center;background-color: #b1b1b1;border-radius: 8px;">
+      <p style="font-family: 'Open Sans', sans-serif;color: #000000;">To confirm your email address, please click on this button:</p>
+      <button style="background-color: #1FACEA;border: none;border-radius: 8px;color: white;padding: 15px 32px;text-align: center;text-direction: none;display: inline-block;font-size: 16px;" type="button" onclick="location.href='%CONFIRMLINK%'">Confirm My Email</button>
+    </div>
+    <div style="padding: 10px;margin: 20px;text-align: center;">
+      <p style="font-family: 'Open Sans', sans-serif;color: #000000;">If the above link does not work, copy and paste this link into your web browser: <a style="color: #1FACEA'background-color: transparent;text-decoration: none;" href="%CONFIRMLINK%">%CONFIRMLINK%</a></p>
+    </div>
+    <div style="padding: 10px;margin: 20px;text-align: center;">
+      <p style="font-family: 'Open Sans', sans-serif;color: #C3C3C3;">If you believe that this is a mistake, you can just ignore this message and nothing else will happen.
+      <br>
+      If you have questions or comments, please email us at <a style="color: #1FACEA;background-color: transparent;text-decoration: none;" href="mailto:hello@luuply.com">hello@luuply.com</a>.
+      </p>
+    </div>
+  </body>
+</html>
+```
+
+Adjust all links as needed.
 # THANK YOU!
