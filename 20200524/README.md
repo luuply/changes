@@ -284,4 +284,21 @@ Please style the PHPMailer script that sends emails to the users for email confi
 ```
 
 Adjust all links as needed.
+
+### Account activated page issue
+
+Adjust the bottom margin and padding of the `<article>` with `id="post-109"`.
+
+Change the heading text to just "**Your email has been confirmed!**". Change the lorem ipsum text to the following:
+
+> Thanks for confirming your email address! We're excited that you're joining us here on Luuply. To get started, you can go [home](https://luuply.com) or just start searching for a school above. If you have questions, please don't hesitate to get in contact with us [here](./contact-us/)!
+
+Remove the "Visit homepage" button.
+
+### Logout issue
+
+Remove the interstitial page when a user not using SSO tries to log out.
+
+![Logout interstitial page](https://github.com/luuply/changes/raw/master/20200524/logoutinterstitial.png "Logout interstitial page")
+
 # THANK YOU!
