@@ -301,4 +301,8 @@ Remove the interstitial page when a user not using SSO tries to log out.
 
 ![Logout interstitial page](https://github.com/luuply/changes/raw/master/20200524/logoutinterstitial.png "Logout interstitial page")
 
+### Sign up page SSO button
+
+Similar to the login page, please capitalize "Facebook" in the SSO button on the sign up page.
+
 # THANK YOU!
