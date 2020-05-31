@@ -305,4 +305,8 @@ Remove the interstitial page when a user not using SSO tries to log out.
 
 Similar to the login page, please capitalize "Facebook" in the SSO button on the sign up page.
 
+### Erroneous password change emails
+
+When a user signs in using SSO, they might receive a "Password Changed" email that lets them know that their password was changed, even though they had just signed in with SSO. Password change emails ***must*** only be sent if a user does NOT sign in with SSO.
+
 # THANK YOU!
