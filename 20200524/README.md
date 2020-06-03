@@ -325,6 +325,6 @@ Recent reviews nees to have the school and sport included, see image:
 
 On the confirmation page after you verify your email, the "contact us here" link is formatted with an extra period. Please remove the period at the end of the `<p>`. See image: 
 
-![Extra period](https://github.com/luuply/changes/raw/master/20200524/contact.png "Extra period")
+![Extra period](https://github.com/luuply/changes/raw/master/20200524/extraperiod.png "Extra period")
 
 # THANK YOU!
