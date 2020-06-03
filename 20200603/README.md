@@ -5,11 +5,13 @@
 ### Attributes
 
 ###### ID: 1
-###### Document: `./review-submission/index.php`
+###### Document: `./review-submission/index.php` CSS
 ###### Severity: Moderate
 ###### Techs: Internal fix
 ###### Category: Style
 ###### Round: 1
+
+#### Type: CI Hot
 
 ### Issue Description
 
@@ -20,12 +22,31 @@ Change the helper text on `<fieldset class="comments-rating">`'s `<span>` to "Aw
 ### Attributes
 
 ###### ID: 2
-###### Document: `./luuply-registration/index.php`
+###### Document: `./luuply-registration/index.php` CSS
 ###### Severity: Low
 ###### Techs: Internal fix
 ###### Category: Style
 ###### Round: 1
 
+#### Type: CI Hot
+
 ### Issue Description
 
 To cause issue, visit document, then select the radio for `<input type="radio" id="parent">`. Remove excessive padding on the nested `<div>` components for the radios. To fix, in the `style.css` document, change attribute `margin-bottom: ;` in CSS class `.luuply-page-registration #frame3 .parent-options .radio` to -10px.
+
+## Add extra icon padding
+
+### Attributes
+
+###### ID: 3
+###### Document: `./sport/mens-lacrosse/index.php` CSS
+###### Severity: Low
+###### Techs: Internal fix
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+Add 3px additional `margin-top` and 3px additional `margin-left` to all `<span>` items under class `rate-val` to add additional icon padding.
