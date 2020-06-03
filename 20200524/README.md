@@ -1,16 +1,16 @@
 # Changes for 2020-05-24
 
-### Program Ranking Style
+### (FIXED) Program Ranking Style
 
 Using Bootstrap columns, make the :star: ratings aligned so that they're in their own column, as opposed to depending on the length of the school name. In the image below, the star rankings *should* be in their own column.
 
 ![Unaligned stars](https://github.com/luuply/changes/raw/master/20200524/Image%20from%20iOS.png "Unaligned stars")
 
-### Sticky navbar
+### (FIXED) Sticky navbar
 
 On mobile, the page navigation for the reviews page is currently only at the top. Use a very skinny navbar at the top and make it sticky, so that users can navigate away from the page without having to scroll all the way to the top.
 
-### Centering Asset on Homepage
+### (FIXED) Centering Asset on Homepage
 
 For the titles for Men's and Women's lacrosse under Program Ranking, change these to `text-align: center;` as shown here:
 
@@ -35,7 +35,7 @@ On mobile, "Choose a sport" isn't visible in any page when it's in the header be
 ![Text overflowed from sport select](https://github.com/luuply/changes/raw/master/20200524/Image%20from%20iOS%20(1).png "Text overflowed from sport select")
 ![Text fine on homepage for sport select](https://github.com/luuply/changes/raw/master/20200524/Image%20from%20iOS%20(2).png "Text fine on homepage for sport select")
 
-### Add Mailing List Embedded Script
+### (FIXED) Add Mailing List Embedded Script
 
 Add and style this script according to the style of the rest of the site. Do not change the ID or any attributes other than style of the elements.
 
@@ -76,7 +76,7 @@ Add and style this script according to the style of the rest of the site. Do not
 <!--End mc_embed_signup-->
 ```
 
-### Gussy Up the Contact Us Page
+### (FIXED) Gussy Up the Contact Us Page
 
 The **Contact Us** page is pretty boring right now. Keep the functionality, but change the HTML to roughly match:
 
@@ -169,13 +169,13 @@ instead of
 <a class="fb-icon" href="https://www.facebook.com/v2.10/dialog/oauth?client_id=585009812359917&amp;state=aa9dcceee19b44504f948156a6e31a97&amp;response_type=code&amp;sdk=php-sdk-5.7.0&amp;redirect_uri=http%3A%2F%2Fdev106.developer24x7.com%2Fcnp910%2Ffb-process%2F&amp;scope=email"><img src="http://dev106.developer24x7.com/cnp910/wp-content/themes/luuply/images/fb-icon">Sign in with facebook</a>
 ```
 
-### Footers
+### (FIXED) Footers
 
 For the footers on ALL pages, change the color of the copyright `<p>` to `#555`.
 
 Change the social media icons to `fa-facebook`, `fa-twitter`, and `fa-instagram`.
 
-### Share Modal CSS Bug
+### (FIXED) Share Modal CSS Bug
 
 In the sharing modal, the helptext to "Please enter X or more characters" needs to be adjusted so that it does not overlap the "To email addresses" `span`. 
 
@@ -188,7 +188,7 @@ padding-left: 15px;
 
 Change the "Add a note(optional)" into a properly formed and attributed `<label>` (rather than a `<p>`), and adjust the text to "Add a note (optional)".
 
-### Emails
+### (FIXED) Emails
 
 When you share a post by email, please change the wording to:
 
@@ -200,7 +200,7 @@ When you share a post by email, please change the wording to:
 
 If possible, style the email using some HTML.
 
-### Way to Unsave
+### (FIXED) Way to Unsave
 
 If a user has saved a particular program, they need to be able to *unsave* it using the same mechanism. For example, if I visit the page for Boston University, which I have saved, if I click on "Saved", it should remove the program's listing from my account.
 
@@ -217,7 +217,7 @@ We'd like to remind you that we still need a software manual. At the least, it n
 - Basic troubleshooting
 - Adding a site-wide alert (say, for cookie notifications, outages, notices, etc.)
 
-### (BUG) Writing Review Without Logging In
+### (FIXED BUG) Writing Review Without Logging In
 
 If you write a review without being logged in, it prompts you after hitting "Post" to sign up. If you try to sign up, it hangs.
 
@@ -227,26 +227,26 @@ If you click out of the modal without completing the sign up, the button you cli
 
 ![Posting Image](https://github.com/luuply/changes/raw/master/20200524/postingimage.jpg "Posting Image")
 
-### Add "Next Page" navigation to bottom
+### (FIXED) Add "Next Page" navigation to bottom
 
 Add the button to view the next page of reviews to the bottom of school pages with more than 5 reviews. Currently, you need to scroll all the way back up to go to the next page.
 
 ![Navigation At Bottom](https://github.com/luuply/changes/raw/master/20200524/navbottom1.png "Navigation At Bottom")
 ![Navigation At Bottom](https://github.com/luuply/changes/raw/master/20200524/navbottom2.png "Navigation At Bottom")
 
-### (Partially Fixed) Write Reviews in New Tab
+### (FIXED) Write Reviews in New Tab
 
 If you click on "Start your review of *school name*", the page opens in the current tab. However, if you click on the star ratings to start the review, it still opens in a new tab.
 
 ![Stars](https://github.com/luuply/changes/raw/master/20200524/stars.png "Stars")
 
-### Lost Password
+### (FIXED) Lost Password
 
 The forgot password process isn't formatted in our colors, and it doesn't work.
 
 ![Forgot password](https://github.com/luuply/changes/raw/master/20200524/forgotpassword.png "Forgot password")
 
-### Email Confirmation Style
+### (FIXED) Email Confirmation Style
 
 Please style the PHPMailer script that sends emails to the users for email confirmation as such:
 
@@ -285,7 +285,7 @@ Please style the PHPMailer script that sends emails to the users for email confi
 
 Adjust all links as needed.
 
-### Account activated page issue
+### (FIXED) Account activated page issue
 
 Adjust the bottom margin and padding of the `<article>` with `id="post-109"`.
 
@@ -295,18 +295,30 @@ Change the heading text to just "**Your email has been confirmed!**". Change the
 
 Remove the "Visit homepage" button.
 
-### Logout issue
+### (FIXED) Logout issue
 
 Remove the interstitial page when a user not using SSO tries to log out.
 
 ![Logout interstitial page](https://github.com/luuply/changes/raw/master/20200524/logoutinterstitial.png "Logout interstitial page")
 
-### Sign up page SSO button
+### (FIXED) Sign up page SSO button
 
 Similar to the login page, please capitalize "Facebook" in the SSO button on the sign up page.
 
-### Erroneous password change emails
+### (FIXED) Erroneous password change emails
 
 When a user signs in using SSO, they might receive a "Password Changed" email that lets them know that their password was changed, even though they had just signed in with SSO. Password change emails ***must*** only be sent if a user does NOT sign in with SSO.
+
+### Recent reviews
+
+Recent reviews nees to have the school and sport included, see image:
+
+![Recent reviews](https://github.com/luuply/changes/raw/master/20200524/recentreviews.png "Recent reviews")
+
+### See more
+
+"Older posts" should say "see more" instead. See image:
+
+![Older posts](https://github.com/luuply/changes/raw/master/20200524/olderposts.png "Older posts")
 
 # THANK YOU!
