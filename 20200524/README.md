@@ -321,4 +321,10 @@ Recent reviews nees to have the school and sport included, see image:
 
 ![Older posts](https://github.com/luuply/changes/raw/master/20200524/olderposts.png "Older posts")
 
+### Verification Email Page Link
+
+On the confirmation page after you verify your email, the "contact us here" link is formatted with an extra period. Please remove the period at the end of the `<p>`. See image: 
+
+![Extra period](https://github.com/luuply/changes/raw/master/20200524/contact.png "Extra period")
+
 # THANK YOU!
