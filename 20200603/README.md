@@ -50,3 +50,20 @@ To cause issue, visit document, then select the radio for `<input type="radio" i
 ### Issue Description
 
 Add 3px additional `margin-top` and 3px additional `margin-left` to all `<span>` items under class `rate-val` to add additional icon padding.
+
+## Note width
+
+### Attributes
+
+###### ID: 4
+###### Document: `./school/?schoolname/?sport_name=?sport` CSS reference
+###### Severity: Low
+###### Techs: Internal fix
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+Add the `optionalnote` class to `<textarea name="receiver_note">` and set the CSS `width: 100%;`. Do not affect anything in the modal header, especially the `share_url` item.
