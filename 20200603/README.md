@@ -156,3 +156,160 @@ In the CSS `.product-footer-sec h5 {}`, change `font-family` to include a backup
 ### Issue Description
 
 In the `<p>` for `c-aboutus__repeat-single`, capitalize the first and second "To" under "Luuply is a platform for:".
+
+### Inconsistent Style On Profile Page
+
+### Attributes
+
+###### ID: 9
+###### Document: `./profile`
+###### Severity: Low
+###### Techs: Internal
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+Under Your Reviews `<div>`, change the whole class to include `padding-b-30` so that the bottom `<hr>` appears the same distance from the text as "Saved Schools" and "Notifications". Change `border-0` to `margin-b-40`.
+
+## Padding in search bar
+
+### Attributes
+
+###### ID: 10
+###### Document: `./profile`
+###### Severity: Low
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+Vertically align the "Choose a sport" and "Search for a school..." placeholder texts in the search bar within their `<div>`.
+
+## Capitalize something
+
+### Attributes
+
+###### ID: 11
+###### Document: `./profile`
+###### Severity: Low
+###### Techs: Internal
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+Capitalize "profile" in Change Profile Picture when updating the profile.
+
+## Placeholder text in profile change
+
+### Attributes
+
+###### ID: 11
+###### Document: `./profile`
+###### Severity: Low
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+Show some placeholder text under "Saved Schools" if the user doesn't have anything saved.
+
+## Search results `<h1>`
+
+###### ID: 12
+###### Document: `./school/?schoolname/?sport_name=?sport` JS reference
+###### Severity: Low
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+When searching, if you don't select anything for school, then a comma shows up without anything to preface it. If only one search query provided, remove the comma. Style "mens-lacrosse" to "Men's Lacrosse".
+
+## Remove `border-bottom` and shrink the padding
+
+###### ID: 12
+###### Document: `./review-submission/`
+###### Severity: Moderate
+###### Techs: Internal
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+In the `form.review-form.comments-rating {}` CSS class, remove the `border-bottom` and change `margin-bottom` to 15px.
+
+## Coaches page
+
+###### ID: 13
+###### Document: a school page
+###### Severity: Low
+###### Techs: Internal
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+Replace HC and AC with "Head Coach" and "Assistant Coach".
+
+## School detail style
+
+###### ID: 13
+###### Document: a school page
+###### Severity: Low
+###### Techs: Internal
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+Remove the dash `-` before the tallies.
+
+## Contact style
+
+###### ID: 14
+###### Document: `./contact-us/`
+###### Severity: Low
+###### Techs: Internal
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+Change `<h6>` to `<h5>`. Change to "Got a question? Want to drop us a note?"
+
+After submission, remove the `wpcf7-mail-sent-ok` border `2px solid green`. Change the text to something more suitable.
+
+## Margins on headers
+
+###### ID: 15
+###### Document: `./contact-us/`
+###### Severity: Low
+###### Techs: Internal
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+Change the spacing `margin-bottom` from 40px to 10px on `article.contact-us h1 {}` for the `<h1>` asset.
