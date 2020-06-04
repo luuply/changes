@@ -7,7 +7,7 @@
 ### Attributes
 
 ###### ID: 1
-###### Document: `./review-submission/index.php` CSS
+###### Document: `./review-submission/` CSS
 ###### Severity: Moderate
 ###### Techs: CN
 ###### Category: Style
@@ -26,7 +26,7 @@ Change the helper text on `<fieldset class="comments-rating">`'s `<span>` to "Aw
 ### Attributes
 
 ###### ID: 2
-###### Document: `./luuply-registration/index.php` CSS
+###### Document: `./luuply-registration/` CSS
 ###### Severity: Low
 ###### Techs: CN
 ###### Category: Style
@@ -45,7 +45,7 @@ To cause issue, visit document, then select the radio for `<input type="radio" i
 ### Attributes
 
 ###### ID: 3
-###### Document: `./sport/mens-lacrosse/index.php` CSS
+###### Document: `./sport/mens-lacrosse/` CSS
 ###### Severity: Low
 ###### Techs: CN
 ###### Category: Style
