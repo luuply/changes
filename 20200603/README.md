@@ -283,7 +283,7 @@ When searching, if you don't select anything for school, then a comma shows up w
 
 ### Issue Description
 
-In the `form.review-form.comments-rating {}` CSS class, remove the `border-bottom` and change `margin-bottom` to 15px.
+In the `form.review-form.comments-rating {}` CSS class, remove the `border-bottom` and change `margin-bottom` to 15px. Remove the `padding-bottom` attribute.
 
 ***
 
