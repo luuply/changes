@@ -96,8 +96,30 @@ Change asset `<a class="js-twitter-share">` to capitalize "Twitter". Do not affe
 ###### Category: Typographical error
 ###### Round: 1
 
-#### Type: CD
+#### Type: CI Hot
 
 ### Issue Description
 
 In `<footer class="c-footer">`, change `<h5>` "Product" and "Product" to "About" and "Policies", respectively.
+
+## Logout interstitial
+
+### Attributes
+
+###### ID: 6
+###### Document: `./wp-login.php`, origin `./profile/` and `.`
+###### Severity: Moderate
+###### Techs: CN
+###### Category: BUG
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+From either of the origin documents, clicking "Logout" still presents an interstitial page.
+
+### Hotfix
+
+Style the `./wp-login.php` document as other code is being modified prior to removal.
+
