@@ -67,3 +67,20 @@ Add 3px additional `margin-top` and 3px additional `margin-left` to all `<span>`
 ### Issue Description
 
 Add the `optionalnote` class to `<textarea name="receiver_note">` and set the CSS `width: 100%;`. Do not affect anything in the modal header, especially the `share_url` item.
+
+## Share on twitter
+
+### Attributes
+
+###### ID: 5
+###### Document: `./school/?schoolname/?sport_name=?sport` HTML reference
+###### Severity: Low
+###### Techs: Internal fix
+###### Category: Typographical error
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+Change asset `<a class="js-twitter-share">` to capitalize "Twitter". Do not affect the `<i>` asset.
