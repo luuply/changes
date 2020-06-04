@@ -370,7 +370,7 @@ Change the spacing `margin-bottom` from 40px to 10px on `article.contact-us h1 {
 
 ### Issue Description
 
-When clicking to post review when not signed in, change the text for `id=fbLink"` to capitalize "Facebook."
+When clicking to post review when not signed in, change the text in the modal that pops up for `id=fbLink"` to capitalize "Facebook."
 
 ***
 
