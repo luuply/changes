@@ -123,3 +123,36 @@ From either of the origin documents, clicking "Logout" still presents an interst
 
 Style the `./wp-login.php` document as other code is being modified prior to removal.
 
+## Open Sans Library
+
+### Attributes
+
+###### ID: 7
+###### Document: `.`
+###### Severity: Critical
+###### Techs: CN
+###### Category: BUG
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+In the CSS `.product-footer-sec h5 {}`, change `font-family` to include a backup family (sans-serif). Include the font class from Google Fonts in the `head`.
+
+## Luuply is a platform for
+
+### Attributes
+
+###### ID: 8
+###### Document: `.`
+###### Severity: Low
+###### Techs: Internal
+###### Category: Typographical error
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+In the `<p>` for `c-aboutus__repeat-single`, capitalize the first and second "To" under "Luuply is a platform for:".
