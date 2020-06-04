@@ -84,3 +84,20 @@ Add the `optionalnote` class to `<textarea name="receiver_note">` and set the CS
 ### Issue Description
 
 Change asset `<a class="js-twitter-share">` to capitalize "Twitter". Do not affect the `<i>` asset.
+
+## Footer Changes
+
+### Attributes
+
+###### ID: 6
+###### Document: `.`
+###### Severity: Moderate
+###### Techs: Internal fix
+###### Category: Typographical error
+###### Round: 1
+
+#### Type: CD
+
+### Issue Description
+
+In `<footer class="c-footer">`, change `<h5>` "Product" and "Product" to "About" and "Policies", respectively.
