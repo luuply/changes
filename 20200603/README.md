@@ -491,3 +491,23 @@ If a user selects that they are a current or former collegiate athlete, change t
   </div>
 </div>
 ```
+
+***
+
+***
+
+# Images
+
+We encourage you to view these images to aid in your fixes.
+
+![](https://github.com/luuply/changes/raw/master/20200603/new_.footers.PNG)
+![](https://github.com/luuply/changes/raw/master/20200603/new_contact-us.PNG)
+![](https://github.com/luuply/changes/raw/master/20200603/new_luuply-login.PNG)
+![](https://github.com/luuply/changes/raw/master/20200603/new_luuply-registration.PNG)
+![](https://github.com/luuply/changes/raw/master/20200603/new_luuply-registration_verify.PNG)
+![](https://github.com/luuply/changes/raw/master/20200603/new_profile-EDIT.PNG)
+![](https://github.com/luuply/changes/raw/master/20200603/new_profile.PNG)
+![](https://github.com/luuply/changes/raw/master/20200603/new_review-submission-signup-modal.PNG)
+![](https://github.com/luuply/changes/raw/master/20200603/new_review-submission.PNG)
+![](https://github.com/luuply/changes/raw/master/20200603/new_schoolpage.PNG)
+![](https://github.com/luuply/changes/raw/master/20200603/new_test_results.PNG)
