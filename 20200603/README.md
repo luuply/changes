@@ -106,7 +106,7 @@ In `<footer class="c-footer">`, change `<h5>` "Product" and "Product" to "About"
 
 ### Attributes
 
-###### ID: 6
+###### ID: 7
 ###### Document: `./wp-login.php`, origin `./profile/` and `.`
 ###### Severity: Moderate
 ###### Techs: CN
@@ -127,7 +127,7 @@ Style the `./wp-login.php` document as other code is being modified prior to rem
 
 ### Attributes
 
-###### ID: 7
+###### ID: 8
 ###### Document: `.`
 ###### Severity: Critical
 ###### Techs: CN
@@ -144,7 +144,7 @@ In the CSS `.product-footer-sec h5 {}`, change `font-family` to include a backup
 
 ### Attributes
 
-###### ID: 8
+###### ID: 9
 ###### Document: `.`
 ###### Severity: Low
 ###### Techs: Internal
@@ -157,11 +157,11 @@ In the CSS `.product-footer-sec h5 {}`, change `font-family` to include a backup
 
 In the `<p>` for `c-aboutus__repeat-single`, capitalize the first and second "To" under "Luuply is a platform for:".
 
-### Inconsistent Style On Profile Page
+## Inconsistent Style On Profile Page
 
 ### Attributes
 
-###### ID: 9
+###### ID: 10
 ###### Document: `./profile`
 ###### Severity: Low
 ###### Techs: Internal
@@ -178,7 +178,7 @@ Under Your Reviews `<div>`, change the whole class to include `padding-b-30` so 
 
 ### Attributes
 
-###### ID: 10
+###### ID: 11
 ###### Document: `./profile`
 ###### Severity: Low
 ###### Techs: CN
@@ -195,7 +195,7 @@ Vertically align the "Choose a sport" and "Search for a school..." placeholder t
 
 ### Attributes
 
-###### ID: 11
+###### ID: 12
 ###### Document: `./profile`
 ###### Severity: Low
 ###### Techs: Internal
@@ -211,7 +211,7 @@ Capitalize "profile" in Change Profile Picture when updating the profile.
 
 ### Attributes
 
-###### ID: 11
+###### ID: 13
 ###### Document: `./profile`
 ###### Severity: Low
 ###### Techs: CN
@@ -226,7 +226,7 @@ Show some placeholder text under "Saved Schools" if the user doesn't have anythi
 
 ## Search results `<h1>`
 
-###### ID: 12
+###### ID: 14
 ###### Document: `./school/?schoolname/?sport_name=?sport` JS reference
 ###### Severity: Low
 ###### Techs: CN
@@ -241,7 +241,7 @@ When searching, if you don't select anything for school, then a comma shows up w
 
 ## Remove `border-bottom` and shrink the padding
 
-###### ID: 12
+###### ID: 15
 ###### Document: `./review-submission/`
 ###### Severity: Moderate
 ###### Techs: Internal
@@ -256,7 +256,7 @@ In the `form.review-form.comments-rating {}` CSS class, remove the `border-botto
 
 ## Coaches page
 
-###### ID: 13
+###### ID: 16
 ###### Document: a school page
 ###### Severity: Low
 ###### Techs: Internal
@@ -271,7 +271,7 @@ Replace HC and AC with "Head Coach" and "Assistant Coach".
 
 ## School detail style
 
-###### ID: 13
+###### ID: 17
 ###### Document: a school page
 ###### Severity: Low
 ###### Techs: Internal
@@ -280,11 +280,13 @@ Replace HC and AC with "Head Coach" and "Assistant Coach".
 
 #### Type: CI Hot
 
+### Issue Description
+
 Remove the dash `-` before the tallies.
 
 ## Contact style
 
-###### ID: 14
+###### ID: 18
 ###### Document: `./contact-us/`
 ###### Severity: Low
 ###### Techs: Internal
@@ -301,7 +303,7 @@ After submission, remove the `wpcf7-mail-sent-ok` border `2px solid green`. Chan
 
 ## Margins on headers
 
-###### ID: 15
+###### ID: 19
 ###### Document: `./contact-us/`
 ###### Severity: Low
 ###### Techs: Internal
