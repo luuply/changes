@@ -1,5 +1,7 @@
 # INTERNAL CHANGES LIST
 
+***
+
 ## `<span>` Labels
 
 ### Attributes
@@ -7,7 +9,7 @@
 ###### ID: 1
 ###### Document: `./review-submission/index.php` CSS
 ###### Severity: Moderate
-###### Techs: Internal fix
+###### Techs: CN
 ###### Category: Style
 ###### Round: 1
 
@@ -17,6 +19,8 @@
 
 Change the helper text on `<fieldset class="comments-rating">`'s `<span>` to "Awful," "Bad," "Okay," "Good," and "Great." Root object ID is `<form id="review_form">`.
 
+***
+
 ## Remove `<radio>` padding
 
 ### Attributes
@@ -24,7 +28,7 @@ Change the helper text on `<fieldset class="comments-rating">`'s `<span>` to "Aw
 ###### ID: 2
 ###### Document: `./luuply-registration/index.php` CSS
 ###### Severity: Low
-###### Techs: Internal fix
+###### Techs: CN
 ###### Category: Style
 ###### Round: 1
 
@@ -32,7 +36,9 @@ Change the helper text on `<fieldset class="comments-rating">`'s `<span>` to "Aw
 
 ### Issue Description
 
-To cause issue, visit document, then select the radio for `<input type="radio" id="parent">`. Remove excessive padding on the nested `<div>` components for the radios. To fix, in the `style.css` document, change attribute `margin-bottom: ;` in CSS class `.luuply-page-registration #frame3 .parent-options .radio` to -10px.
+To cause issue, visit document, then select the radio for `<input type="radio" id="parent">`. Remove excessive padding on the nested `<div>` components for the radios. Padding on the radios and their labels should match that if you select that you're a current or former collegiate athlete. To fix, in the `style.css` document, change attribute `margin-bottom: ;` in CSS class `.luuply-page-registration #frame3 .parent-options .radio` to -10px.
+
+***
 
 ## Add extra icon padding
 
@@ -41,7 +47,7 @@ To cause issue, visit document, then select the radio for `<input type="radio" i
 ###### ID: 3
 ###### Document: `./sport/mens-lacrosse/index.php` CSS
 ###### Severity: Low
-###### Techs: Internal fix
+###### Techs: CN
 ###### Category: Style
 ###### Round: 1
 
@@ -51,6 +57,8 @@ To cause issue, visit document, then select the radio for `<input type="radio" i
 
 Add 3px additional `margin-top` and 3px additional `margin-left` to all `<span>` items under class `rate-val` to add additional icon padding.
 
+***
+
 ## Note width
 
 ### Attributes
@@ -58,7 +66,7 @@ Add 3px additional `margin-top` and 3px additional `margin-left` to all `<span>`
 ###### ID: 4
 ###### Document: `./school/?schoolname/?sport_name=?sport` CSS reference
 ###### Severity: Low
-###### Techs: Internal fix
+###### Techs: CN
 ###### Category: Style
 ###### Round: 1
 
@@ -66,7 +74,9 @@ Add 3px additional `margin-top` and 3px additional `margin-left` to all `<span>`
 
 ### Issue Description
 
-Add the `optionalnote` class to `<textarea name="receiver_note">` and set the CSS `width: 100%;`. Do not affect anything in the modal header, especially the `share_url` item.
+Add the `optionalnote` class to `<textarea name="receiver_note">` and set the CSS `width: 100%;` rather than specifying a maximum width. The `textarea` breaks when the page width is too narrow. Do not affect anything in the modal header, especially the `share_url` item.
+
+***
 
 ## Share on twitter
 
@@ -75,7 +85,7 @@ Add the `optionalnote` class to `<textarea name="receiver_note">` and set the CS
 ###### ID: 5
 ###### Document: `./school/?schoolname/?sport_name=?sport` HTML reference
 ###### Severity: Low
-###### Techs: Internal fix
+###### Techs: CN
 ###### Category: Typographical error
 ###### Round: 1
 
@@ -85,6 +95,8 @@ Add the `optionalnote` class to `<textarea name="receiver_note">` and set the CS
 
 Change asset `<a class="js-twitter-share">` to capitalize "Twitter". Do not affect the `<i>` asset.
 
+***
+
 ## Footer Changes
 
 ### Attributes
@@ -92,7 +104,7 @@ Change asset `<a class="js-twitter-share">` to capitalize "Twitter". Do not affe
 ###### ID: 6
 ###### Document: `.`
 ###### Severity: Moderate
-###### Techs: Internal fix
+###### Techs: CN
 ###### Category: Typographical error
 ###### Round: 1
 
@@ -101,6 +113,8 @@ Change asset `<a class="js-twitter-share">` to capitalize "Twitter". Do not affe
 ### Issue Description
 
 In `<footer class="c-footer">`, change `<h5>` "Product" and "Product" to "About" and "Policies", respectively.
+
+***
 
 ## Logout interstitial
 
@@ -123,6 +137,8 @@ From either of the origin documents, clicking "Logout" still presents an interst
 
 Style the `./wp-login.php` document as other code is being modified prior to removal.
 
+***
+
 ## Open Sans Library
 
 ### Attributes
@@ -140,6 +156,8 @@ Style the `./wp-login.php` document as other code is being modified prior to rem
 
 In the CSS `.product-footer-sec h5 {}`, change `font-family` to include a backup family (sans-serif). Include the font class from Google Fonts in the `head`.
 
+***
+
 ## Luuply is a platform for
 
 ### Attributes
@@ -147,7 +165,7 @@ In the CSS `.product-footer-sec h5 {}`, change `font-family` to include a backup
 ###### ID: 9
 ###### Document: `.`
 ###### Severity: Low
-###### Techs: Internal
+###### Techs: CN
 ###### Category: Typographical error
 ###### Round: 1
 
@@ -157,6 +175,8 @@ In the CSS `.product-footer-sec h5 {}`, change `font-family` to include a backup
 
 In the `<p>` for `c-aboutus__repeat-single`, capitalize the first and second "To" under "Luuply is a platform for:".
 
+***
+
 ## Inconsistent Style On Profile Page
 
 ### Attributes
@@ -164,7 +184,7 @@ In the `<p>` for `c-aboutus__repeat-single`, capitalize the first and second "To
 ###### ID: 10
 ###### Document: `./profile`
 ###### Severity: Low
-###### Techs: Internal
+###### Techs: CN
 ###### Category: Style
 ###### Round: 1
 
@@ -173,6 +193,8 @@ In the `<p>` for `c-aboutus__repeat-single`, capitalize the first and second "To
 ### Issue Description
 
 Under Your Reviews `<div>`, change the whole class to include `padding-b-30` so that the bottom `<hr>` appears the same distance from the text as "Saved Schools" and "Notifications". Change `border-0` to `margin-b-40`.
+
+***
 
 ## Padding in search bar
 
@@ -189,23 +211,28 @@ Under Your Reviews `<div>`, change the whole class to include `padding-b-30` so 
 
 ### Issue Description
 
-Vertically align the "Choose a sport" and "Search for a school..." placeholder texts in the search bar within their `<div>`.
+Vertically align the "Choose a sport" and "Search for a school..." placeholder texts in the search bar within their `<div>`. The baseline is too low.
 
-## Capitalize something
+***
+
+## Capitalize error
 
 ### Attributes
 
 ###### ID: 12
 ###### Document: `./profile`
 ###### Severity: Low
-###### Techs: Internal
+###### Techs: CN
 ###### Category: Style
 ###### Round: 1
 
 #### Type: CI Hot
 
 ### Issue Description
+
 Capitalize "profile" in Change Profile Picture when updating the profile.
+
+***
 
 ## Placeholder text in profile change
 
@@ -224,6 +251,8 @@ Capitalize "profile" in Change Profile Picture when updating the profile.
 
 Show some placeholder text under "Saved Schools" if the user doesn't have anything saved.
 
+***
+
 ## Search results `<h1>`
 
 ###### ID: 14
@@ -239,12 +268,14 @@ Show some placeholder text under "Saved Schools" if the user doesn't have anythi
 
 When searching, if you don't select anything for school, then a comma shows up without anything to preface it. If only one search query provided, remove the comma. Style "mens-lacrosse" to "Men's Lacrosse".
 
+***
+
 ## Remove `border-bottom` and shrink the padding
 
 ###### ID: 15
 ###### Document: `./review-submission/`
 ###### Severity: Moderate
-###### Techs: Internal
+###### Techs: CN
 ###### Category: Style
 ###### Round: 1
 
@@ -253,6 +284,8 @@ When searching, if you don't select anything for school, then a comma shows up w
 ### Issue Description
 
 In the `form.review-form.comments-rating {}` CSS class, remove the `border-bottom` and change `margin-bottom` to 15px.
+
+***
 
 ## Coaches page
 
@@ -269,6 +302,8 @@ In the `form.review-form.comments-rating {}` CSS class, remove the `border-botto
 
 Replace HC and AC with "Head Coach" and "Assistant Coach".
 
+***
+
 ## School detail style
 
 ###### ID: 17
@@ -284,12 +319,14 @@ Replace HC and AC with "Head Coach" and "Assistant Coach".
 
 Remove the dash `-` before the tallies.
 
+***
+
 ## Contact style
 
 ###### ID: 18
 ###### Document: `./contact-us/`
 ###### Severity: Low
-###### Techs: Internal
+###### Techs: CN
 ###### Category: Style
 ###### Round: 1
 
@@ -297,16 +334,18 @@ Remove the dash `-` before the tallies.
 
 ### Issue Description
 
-Change `<h6>` to `<h5>`. Change to "Got a question? Want to drop us a note?"
+Remove the `<h6>` at the top of the page altogether. Do not affect the `<h1>` asset.
 
 After submission, remove the `wpcf7-mail-sent-ok` border `2px solid green`. Change the text to something more suitable.
+
+***
 
 ## Margins on headers
 
 ###### ID: 19
 ###### Document: `./contact-us/`
 ###### Severity: Low
-###### Techs: Internal
+###### Techs: CN
 ###### Category: Style
 ###### Round: 1
 
@@ -315,6 +354,8 @@ After submission, remove the `wpcf7-mail-sent-ok` border `2px solid green`. Chan
 ### Issue Description
 
 Change the spacing `margin-bottom` from 40px to 10px on `article.contact-us h1 {}` for the `<h1>` asset.
+
+***
 
 ## Capitalize facebook
 
@@ -331,6 +372,8 @@ Change the spacing `margin-bottom` from 40px to 10px on `article.contact-us h1 {
 
 When clicking to post review when not signed in, change the text for `id=fbLink"` to capitalize "Facebook."
 
+***
+
 ## Center continue button
 
 ###### ID: 21
@@ -345,6 +388,8 @@ When clicking to post review when not signed in, change the text for `id=fbLink"
 ### Issue Description
 
 Center button with `name="next"` after clicking to post review when not signed in.
+
+***
 
 ## Center and reformat login button if not signed in
 
@@ -361,6 +406,8 @@ Center button with `name="next"` after clicking to post review when not signed i
 
 When not signed in, merge the Already in Luuply `<p>` and the login button into one `<a>` and center.
 
+***
+
 ## Remove Lorem ipsum text
 
 ###### ID: 23
@@ -375,3 +422,72 @@ When not signed in, merge the Already in Luuply `<p>` and the login button into 
 ### Issue Description
 
 Remove the Lorem ipsum text when signing up through the review submission page.
+
+***
+
+## Login Labels
+
+###### ID: 24
+###### Document: `./luuply-login/`
+###### Severity: Low
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+In the form with `id="loginform"`, in the `<label for="user_login">` and `<label for="user_pass">`, add the CSS style attribute `visibility: hidden;` to hide the labels.
+
+***
+
+## Login Fields
+
+###### ID: 25
+###### Document: `./luuply-login/`
+###### Severity: Low
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+In the form with `id="loginform"`, in the HTML for `<input name="log">` and `<input name="pwd">`, add the HTML attribute `placeholder="Email Address"` and `placeholder="Password"`, respectively.
+
+***
+
+## Verified user style change
+
+###### ID: 26
+###### Document: `./luuply-registration/`
+###### Severity: Low
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+If a user selects that they are a current or former collegiate athlete, change the wording of the subsequent question to "Do you want to be a verified user?" Add an `<a>` for "verified user" that opens a modal. Add the following HTML to that page to create that modal.
+
+```
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <h1>What is a verified user?</h1>
+    <p>A verified badge shows up as a blue checkmark next to your reviews and on your profile. It means that Luuply has verified that you are who you say that you are, and provides additional assurance to readers that your review can be trusted as authentic and representative.</p>
+    <ul>
+      <li>Verified accounts don't get extra features on Luuply. They aren't indicative of endorsement by Luuply, and they don't represent awards or milestones.</li>
+      <li>We reserve the right to revoke verification or terminate accounts that violate our Code of Conduct or Terms of Service.
+    </ul>
+  </div>
+</div>
+```
