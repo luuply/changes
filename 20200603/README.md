@@ -315,3 +315,63 @@ After submission, remove the `wpcf7-mail-sent-ok` border `2px solid green`. Chan
 ### Issue Description
 
 Change the spacing `margin-bottom` from 40px to 10px on `article.contact-us h1 {}` for the `<h1>` asset.
+
+## Capitalize facebook
+
+###### ID: 20
+###### Document: `./review-submission/`
+###### Severity: High
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+When clicking to post review when not signed in, change the text for `id=fbLink"` to capitalize "Facebook."
+
+## Center continue button
+
+###### ID: 21
+###### Document: `./review-submission/`
+###### Severity: Low
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+Center button with `name="next"` after clicking to post review when not signed in.
+
+## Center and reformat login button if not signed in
+
+###### ID: 22
+###### Document: `./review-submission/`
+###### Severity: Low
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+When not signed in, merge the Already in Luuply `<p>` and the login button into one `<a>` and center.
+
+## Remove Lorem ipsum text
+
+###### ID: 23
+###### Document: `./review-submission/`
+###### Severity: Low
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: CI Hot
+
+### Issue Description
+
+Remove the Lorem ipsum text when signing up through the review submission page.
