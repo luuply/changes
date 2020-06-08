@@ -511,8 +511,6 @@ Upgrade jQuery version from 2.12.4 to 3.5 or later.
 
 ***
 
-***
-
 ## Theme color in head
 
 ###### ID: 28
@@ -530,6 +528,29 @@ In the `<head>`, add the following line:
 
 ```
 <meta name="theme-color" content="#3c3c3c">
+```
+
+***
+
+## Add `apple-touch-icon`
+
+###### ID: 29
+###### Document: `.`
+###### Severity: Low
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+Add [this icon](https://github.com/luuply/changes/raw/master/20200603/apple-touch-icon.png) to the root directory of the webpage.
+
+Add a line to the `head`:
+
+```
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 ```
 
 ***
