@@ -555,6 +555,23 @@ Add a line to the `head`:
 
 ***
 
+## Logo replacement
+
+###### ID: 30
+###### Document: `.`
+###### Severity: Moderate
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+Replace all of the header and inline images with [this for the header](https://github.com/luuply/changes/raw/master/20200603/LuuplyHeader20200608.png) and [this for the inline](https://github.com/luuply/changes/raw/master/20200603/LuuplyLogo20200608.png). Rescale as needed.
+
+***
+
 ***
 
 # Images
