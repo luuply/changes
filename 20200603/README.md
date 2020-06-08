@@ -494,6 +494,46 @@ If a user selects that they are a current or former collegiate athlete, change t
 
 ***
 
+## jQuery version change
+
+###### ID: 27
+###### Document: `.`
+###### Severity: High
+###### Techs: CN
+###### Category: Dependency
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+Upgrade jQuery version from 2.12.4 to 3.5 or later.
+
+***
+
+***
+
+## Theme color in head
+
+###### ID: 28
+###### Document: `.`
+###### Severity: Low
+###### Techs: CN
+###### Category: Frontend
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+In the `<head>`, add the following line:
+
+```
+<meta name="theme-color" content="#3c3c3c">
+```
+
+***
+
 ***
 
 # Images
