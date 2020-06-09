@@ -527,7 +527,7 @@ Upgrade jQuery version from 2.12.4 to 3.5 or later.
 In the `<head>`, add the following line:
 
 ```
-<meta name="theme-color" content="#3c3c3c">
+<meta name="theme-color" content="#3C3C3C"/>
 ```
 
 ***
