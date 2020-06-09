@@ -572,6 +572,24 @@ Replace all of the header and inline images with [this for the header](https://g
 
 ***
 
+## Search page navigation
+
+
+###### ID: 31
+###### Document: `./?sport_name=mens-lacrosse&s=` and `./?sport_name=womens-lacrosse&s=`
+###### Severity: Moderate
+###### Techs: CN
+###### Category: Style
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+Replace the "Previous Page" button with the next page button and the "Next Page" button with the previous page button. Change any `href`s to match.
+
+***
+
 ***
 
 # Images
