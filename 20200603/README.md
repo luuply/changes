@@ -607,6 +607,23 @@ Clicking “View Replies” when not logged in just brings you to the top of the
 
 ***
 
+## Showing five schools on homepage
+
+###### ID: 33
+###### Document: `.`
+###### Severity: High
+###### Techs: CN
+###### Category: Functionality bug
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+Under "Program Ranking," the lists are only showing the top 2 and top 1 ranked schools, as opposed to the top 5 ranked schools. The homepage should only display the top 5 ranked schools, but the full list should display the full list of schools.
+
+***
+
 ***
 
 # Images
