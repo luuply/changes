@@ -590,6 +590,23 @@ Replace the "Previous Page" button with the next page button and the "Next Page"
 
 ***
 
+## Return to top bug
+
+###### ID: 32
+###### Document: School pages
+###### Severity: High
+###### Techs: CN
+###### Category: Functionality bug
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+Clicking “View Replies” when not logged in just brings you to the top of the page - possibly `href="#"` issue?
+
+***
+
 ***
 
 # Images
