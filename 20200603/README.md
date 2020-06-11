@@ -624,6 +624,23 @@ Under "Program Ranking," the lists are only showing the top 2 and top 1 ranked s
 
 ***
 
+## Review pages on schools with >5 reviews
+
+###### ID: 34
+###### Document: School pages
+###### Severity: High
+###### Techs: CN
+###### Category: Functionality bug
+###### Round: 1
+
+#### Type: Cold
+
+### Issue Description
+
+For schools that have more than one page (five reviews) of reviews, the navigation between those pages of reviews (JS) is broken.
+
+***
+
 ***
 
 # Images
